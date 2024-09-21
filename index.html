@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IQ RPG - Status e Dado</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>IQ RPG</h1>
+
+        <div class="inputs-container">
+
+            <div class="input-group">
+
+                <label for="atk">Ataque (ATK):</label>
+
+                <input type="number" id="atk" min="1" max="10" value="1">
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="dom">Controle de Dom:</label>
+
+                <input type="number" id="dom" min="1" max="10" value="1">
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="agi">Agilidade:</label>
+
+                <input type="number" id="agi" min="1" max="10" value="1">
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="int">Inteligência (INT):</label>
+
+                <input type="number" id="int" min="1" max="10" value="1">
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="pre">Presença:</label>
+
+                <input type="number" id="pre" min="1" max="10" value="1">
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="vig">Vigor:</label>
+
+                <input type="number" id="vig" min="1" max="10" value="1">
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="def">Defesa:</label>
+
+                <input type="number" id="def" min="1" max="10" value="1">
+
+            </div>
+
+        </div>
+
+        <button onclick="calcular()">Calcular Status e Rolar Dado</button>
+
+        <h3>Resultados:</h3>
+
+        <p id="vida">Vida: 0</p>
+
+        <p id="energia">Energia: 0</p>
+
+        <p id="dado">Dado: 0 (Nenhum)</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
